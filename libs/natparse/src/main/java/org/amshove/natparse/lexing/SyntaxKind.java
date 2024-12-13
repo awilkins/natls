@@ -346,6 +346,7 @@ public enum SyntaxKind
 	CABINET(true, false, false),
 	CALLING(true, false, false),
 	CAP(true, false, false),
+	CAPT(true, false, false),
 	CAPTIONED(true, false, false),
 	CASE(true, false, false),
 	CC(true, false, false),
@@ -821,6 +822,7 @@ public enum SyntaxKind
 			this == PM ||
 			this == PS ||
 			this == SB ||
+			this == SF ||
 			this == SG ||
 			this == TC ||
 			this == TCU ||
